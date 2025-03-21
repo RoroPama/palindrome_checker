@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div id="container">
+      <h3>Vérificateur de palindrome</h3>
+      <p>
+        Un palindrome est un mot ou une phrase qui peut être lu de la même façon
+        de gauche à droite ou de droite à gauche, en ignorant la ponctuation, la
+        casse et les espaces.
+      </p>
+      <input id="text-input" placeholder="text à vérifier" />
+      <button id="check-btn">Vérifier</button>
+      <div id="result" class="result-container hidden">
+        radar is a palindrome
+      </div>
+      <div class="examples">
+        <h3>Exemples à essayer :</h3>
+        <ul>
+          <li data-example="A man, a plan, a canal. Panama">
+            A man, a plan, a canal. Panama
+          </li>
+          <li data-example="race car">race car</li>
+          <li data-example="never odd or even">radar</li>
+          <li data-example="0_0 (: /-\ :) 0-0">0_0 (: /-\ :) 0-0</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
